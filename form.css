@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px 2px #ddd;
+  border-radius: 10px;
+}
+
+.card-header {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.form-group input,
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select,
+.form-group button,
+.form-group textarea {
+  padding: 0.75rem 0.5rem;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1px solid #00f;
+  box-shadow: 0 0 10px 0 #00f;
+  outline: none !important;
+}
+
+.form-group select option {
+  padding: 0.5rem 0.75rem !important;
+  text-align: left;
+}
+
+.form-group button {
+  border: 1px solid #00f;
+  cursor: pointer;
+  background-color: #00f;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  box-shadow: 5px 5px 10px 0px grey;
+}
+
+.form-group button:hover {
+  color: #00f;
+  background-color: #fff;
+}
